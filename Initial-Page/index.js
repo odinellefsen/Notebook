@@ -5,7 +5,7 @@
 }
 
 */
-Notebook = () => {
+Notat = () => {
 
     let searchText = document.getElementById("form-search").value;
     let form = document.getElementById('myForm');
@@ -14,7 +14,8 @@ Notebook = () => {
       document.getElementById("s").value = searchText;
       form.action = "/Death-Note/dnote.html";
       form.submit();
-    } else if (searchText === 'Óðin Andor Ellefsen' || 'Óðin A. Ellefsen' || 'Óðin A Ellefsen' || 'Óðin Ellefsen' || 'Odin Andor Ellefsen' || 'Odin Ellefsen') {
+    } 
+    else if (searchText === 'Óðin Andor Ellefsen' || 'Óðin A. Ellefsen' || 'Óðin Ellefsen' || 'Odin Andor Ellefsen') {
       document.getElementById("s").value = searchText;
       form.action = "/Notebook/notebook.html";
       form.submit();  

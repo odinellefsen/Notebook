@@ -14,14 +14,13 @@
         <h2 class="notebook">My Notebook</h2>
         <div id="counter"></div>
     </div>
-
-    <form class="username-password">
-        <input id="navnid" type="text" name="name" autocomplete="off" required />
-        <label for="name" class="label-name">
-            <span class="content-name">Name</span>
-        </label>
-        <button onclick="fn1()" class="button" type="submit"><a href="notebook.html"></a></button>
-    </form>
-
-</body>
-</html>
+    
+<form class="username-password" id="myForm" method="get" onsubmit="return Notebook();">
+    <label for="form-search" class="label-name">
+        <span class="content-name">Name</span>
+    </label>
+    <input type="text" id="form-search" value="" autocomplete="off">
+    <input type="hidden" id="s" name="query" value="" />
+    <hr>
+    <input class="button" type="submit">
+</form>

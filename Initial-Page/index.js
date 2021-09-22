@@ -13,6 +13,6 @@ notat = () => {
       form.action = "/Notebook/notebook.html";
       form.submit();  
     } else {
-        return alert('Yeaaaaaaa... no');
+        return alert(searchText + ' Yeaaaaaaa... no');
     }
   }

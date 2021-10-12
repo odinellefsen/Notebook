@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -12,6 +16,42 @@ body {
 
 h1 {
     font-family: 'IM Fell DW Pica', serif;
+    /*font-family: 'Indie Flower', cursive;*/
     color: #fafafa;
     font-size: 65px;
 }
+
+.paper {
+    position: absolute;
+    height: 1100px;
+    width: 1100px;
+    background: rgba(255,255,255,1);
+    margin: -300px -225px;
+    left: 28%;
+    top: 50%;
+    box-shadow: 0px 0px 5px 0px #888;
+
+  }
+
+  .lines {
+    margin-top: 10px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+  }
+  .text {
+    position: absolute;
+    top: 63px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 25px;
+    /*font-family: 'Indie Flower';*/
+    font-family: 'Gochi Hand', cursive;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 700;
+    overflow: hidden;
+    outline: none;
+  }
+  

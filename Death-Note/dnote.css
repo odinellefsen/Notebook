@@ -39,9 +39,9 @@ h1 {
     height: calc(100% - 40px);
     width: 100%;
     background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+    padding-left: 10px;
   }
   .text {
-    position: absolute;
     top: 120px;
     left: 440px;
     bottom: 10px;
